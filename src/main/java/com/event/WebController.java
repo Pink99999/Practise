@@ -12,15 +12,18 @@ public class WebController {
 	
 	@GetMapping("/home")
 	public String home() {
-		logger.info("home method executed fine!");
+		logger.info("home () excecution started!");
 		String msg="Welcome Devyani!";
+		logger.info("home method executed fine!");
 		return msg;
 	}
 	
 	@GetMapping("/greet")
 	public String greet() {
-		logger.info("greet method executed fine!");
+		logger.info("greet () excecution started!");
 		String msg="Good Morning!";
+		logger.info("greet method executed fine!");
+
 		return msg;
 	}
 	
