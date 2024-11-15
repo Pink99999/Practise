@@ -27,4 +27,14 @@ public class WebController {
 		return msg;
 	}
 	
+	@GetMapping("/welcome")
+	public String welcome() {
+		logger.info("greet () excecution started!");
+		String msg="Good Morning!";
+		logger.info("greet method executed fine!");
+
+		return msg;
+	}
+
+
 }
